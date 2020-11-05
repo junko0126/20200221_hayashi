@@ -186,37 +186,43 @@ header {
   right: 0;
 }
 
+.about_mission {
+  position: relative;
+  height: 500px;
+  background-color:white;
+}
+
 .black_zone {
   background-color: black;
-  position: relative;
   width: auto;
   height: 300px;
 }
 
 .black_zone h3 {
   position: absolute;
-  color: #f2f2f2;
+  color: white;
   font-size: 20px;
   width: auto;
   height: 300px;
   top: 50px;
-  left: 300px;
+  left: 200px;
 }
 
 .black_zone p {
   position: absolute;
-  color: #f2f2f2;
+  color: white;
   top: 100px;
-  left: 300px;
+  left: 200px;
+  width: 1000px;
 }
 
 .mission {
   position: absolute;
   display: block;
-  width: 500px;
-  height: 400px;
-  top: 20px;
-  right: 50px;
+  width: 450px;
+  height: 350px;
+  top: 50px;
+  right: 100px;
 }
 
 #about {
@@ -232,38 +238,38 @@ header {
   margin-bottom: 15px;
   color: black;
   position: absolute;
-  top: 150px;
+  top: 100px;
   left: 500px;
   background-color: #f2f2f2;
   width: 450px;
-  height: 200px;
+  height: 250px;
 }
 
 .about-right2 p {
   margin-bottom: 15px;
   color: black;
   position: absolute;
-  top: 600px;
+  top: 550px;
   right: 500px;
   background-color: #f2f2f2;
   width: 450px;
-  height: 200px;
+  height: 250px;
 }
 
 .imgser2 {
 position: absolute;
 top: 50px;
 right: 0px;
-width: 600px;
-height: 400px;
+width: 650px;
+height: 350px;
 }
 
 .imgser1 {
   position: absolute;
   top: 500px;
   left: 0px;
-  width: 600px;
-  height: 400px;
+  width: 650px;
+  height: 350px;
 }
 
 .section {
