@@ -1,0 +1,400 @@
+@charset "utf-8";
+
+/* リセットcss */
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;  
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+/* 共通のスタイル */
+.section-title {
+  font-size: 30px;
+  font-weight: bold;
+  margin: 30px 0;
+  text-align: center;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+.wrap {
+  width: 80%;
+  margin: 0 auto 50px;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.between {
+  justify-content: space-between;
+}
+
+.around {
+  justify-content: space-around;
+}
+
+/* その他のスタイルは以下に記述していきます */
+
+header {
+  height: 70px;
+  background: #000;
+}
+
+.header-logo {
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 35px;
+  color: #f2f2f2;
+  line-height: 70px;
+}
+
+.header-nav li {
+  display: inline-block;
+  margin-right: 35px;
+  font-size: 16px;
+}
+
+.header-nav a {
+  color: #f2f2f2;
+}
+
+.wrapper {
+  position: relative;
+  display: block;
+}
+
+#eyecatch {
+  height: 600px;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+#eyecatch h2 {
+  position: absolute;
+  top: 50%;
+  left: 30%;
+  transform: translate(-50%, -30%);
+  font-size: 40px;
+  font-style: italic;
+  font-weight: bold;
+  color: #ccc;
+  line-height: 1;
+}
+
+.news p {
+  position: absolute;
+  background-color: #f2f2f2;
+  font-size: 20px;
+  line-height: 1;
+  bottom: 0;
+  right: 0;
+}
+
+.black_zone {
+  background-color: black;
+  position: relative;
+  width: auto;
+  height: 300px;
+}
+
+.black_zone h3 {
+  position: absolute;
+  color: #f2f2f2;
+  font-size: 20px;
+  width: auto;
+  height: 300px;
+  top: 50px;
+  left: 300px;
+}
+
+.black_zone p {
+  position: absolute;
+  color: #f2f2f2;
+  top: 100px;
+  left: 300px;
+}
+
+.mission {
+  position: absolute;
+  display: block;
+  width: 500px;
+  height: 400px;
+  top: 20px;
+  right: 50px;
+}
+
+#about {
+  height: 1000px;
+  width: auto;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  background-color: lightgray;
+}
+
+.about-right1 p {
+  margin-bottom: 15px;
+  color: black;
+  position: absolute;
+  top: 150px;
+  left: 500px;
+  background-color: #f2f2f2;
+  width: 450px;
+  height: 200px;
+}
+
+.about-right2 p {
+  margin-bottom: 15px;
+  color: black;
+  position: absolute;
+  top: 600px;
+  right: 500px;
+  background-color: #f2f2f2;
+  width: 450px;
+  height: 200px;
+}
+
+.imgser2 {
+position: absolute;
+top: 50px;
+right: 0px;
+width: 600px;
+height: 400px;
+}
+
+.imgser1 {
+  position: absolute;
+  top: 500px;
+  left: 0px;
+  width: 600px;
+  height: 400px;
+}
+
+.section {
+  display: flex;
+  justify-content: space-between;
+}
+
+.company {
+  position: relative;
+  left: 0;
+  background: url(../img/company.jpeg) no-repeat;
+  width: 600px;
+  height: 300px;
+}
+
+.recruit {
+  position: relative;
+  right: 0;
+  background: url(../img/recruit.jpg) no-repeat;
+  width: 600px;
+  height: 300px;
+}
+
+.company p {
+  position: absolute;
+  color: #f2f2f2;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%,-50%);
+  -webkit-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  margin:0;
+  padding:0;
+}
+
+.recruit p {
+  position: absolute;
+  color: #f2f2f2;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%,-50%);
+  -webkit-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  margin:0;
+  padding:0;
+}
+
+.faq {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%,-50%);
+  -webkit-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  margin:0;
+  padding:0;
+  background-color: black;
+  width: 500px;
+  height: 100px;
+}
+
+.faq p {
+  position: absolute;
+  color: #f2f2f2;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%,-50%);
+  -webkit-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  margin:0;
+  padding:0;
+}
+
+.contact {
+  height: 500px;
+  background: url(../img/contact-bg.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.contact1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 20px;
+  font-style: italic;
+  font-weight: bold;
+  color: #ccc;
+  line-height: 1;
+  width: 200px;
+  margin: 10px, auto;
+}
+
+.contact p b {
+  font-size: 30px;
+}
+
+.contact2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 20px;
+  font-style: italic;
+  font-weight: bold;
+  color: #ccc;
+  line-height: 1;
+  width: 200px;
+  margin: 10px, auto;
+}
+
+.contact3 {
+  position: absolute;
+  font-size: 5px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-style: italic;
+  font-weight: bold;
+  color: #ccc;
+  line-height: 1;
+  width: 200px;
+  margin: 10px, auto;
+}
+
+.footer {
+  background-color: black;
+  height: 30px;
+  color: #f2f2f2;
+  text-align: center;
+  font-size: 10px;
+}
