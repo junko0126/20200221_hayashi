@@ -180,10 +180,12 @@ header {
 .news p {
   position: absolute;
   background-color: #f2f2f2;
-  font-size: 20px;
-  line-height: 1;
+  font-size: 15px;
+  line-height: 2;
+  width: 600px;
   bottom: 0;
   right: 0;
+  padding-left: 5px;
 }
 
 .about_mission {
@@ -232,7 +234,17 @@ header {
   background-position: center;
   position: relative;
   background-color: lightgray;
+  /* text-align: center; */
 }
+
+.about-right1 img {
+  position: absolute;
+  top: 50px;
+  right: 0px;
+  width: 650px;
+  height: 350px;
+  z-index: 1;
+  }
 
 .about-right1 p {
   margin-bottom: 15px;
@@ -243,33 +255,48 @@ header {
   background-color: #f2f2f2;
   width: 450px;
   height: 250px;
+  z-index: 2;
+  line-height: 2;
+  padding-top: 30px;
+  padding-left: 20px;
+}
+
+.button {
+  position: absolute;
+  top: 300px;
+  left: 800px;
+  z-index: 3;
 }
 
 .about-right2 p {
   margin-bottom: 15px;
   color: black;
   position: absolute;
-  top: 550px;
-  right: 500px;
   background-color: #f2f2f2;
   width: 450px;
   height: 250px;
+  z-index: 2;
+  line-height: 2;
+  padding-top: 30px;
+  padding-left: 20px;
+  top: 550px;
+  right: 500px;
+  
 }
 
-.imgser2 {
-position: absolute;
-top: 50px;
-right: 0px;
-width: 650px;
-height: 350px;
-}
-
-.imgser1 {
+.about-right2 img {
   position: absolute;
   top: 500px;
   left: 0px;
   width: 650px;
   height: 350px;
+}
+
+.button2 {
+  position: absolute;
+  top: 770px;
+  left: 750px;
+  z-index: 3;
 }
 
 .section {
@@ -319,18 +346,15 @@ height: 350px;
 
 .faq {
   position: relative;
-  top: 50%;
-  left: 50%;
-  -ms-transform: translate(-50%,-50%);
-  -webkit-transform: translate(-50%,-50%);
-  transform: translate(-50%,-50%);
-  margin:0;
-  padding:0;
-  background-color: black;
-  width: 500px;
-  height: 100px;
+  height: 300px;
 }
-
+.faq_title p b {
+  position: absolute;
+  top: 20px;
+  left: 5px;
+  color: #ccc;
+  z-index: 2;
+}
 .faq p {
   position: absolute;
   color: #f2f2f2;
@@ -341,28 +365,33 @@ height: 350px;
   transform: translate(-50%,-50%);
   margin:0;
   padding:0;
+  background-color: black;
+  width: 600px;
+  height: 80px;
+  z-index: 1;
 }
 
 .contact {
-  height: 500px;
+  line-height: 500px;
   background: url(../img/contact-bg.jpg) no-repeat;
   background-size: cover;
   background-position: center;
   position: relative;
+  text-align: center;
+  padding: 10%;
 }
 
-.contact1 {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-size: 20px;
+.contact p{
+  margin-bottom: 40px;
   font-style: italic;
   font-weight: bold;
   color: #ccc;
   line-height: 1;
-  width: 200px;
   margin: 10px, auto;
+}
+
+.contact1 {
+  font-size: 20px;
 }
 
 .contact p b {
@@ -370,31 +399,11 @@ height: 350px;
 }
 
 .contact2 {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
   font-size: 20px;
-  font-style: italic;
-  font-weight: bold;
-  color: #ccc;
-  line-height: 1;
-  width: 200px;
-  margin: 10px, auto;
 }
 
 .contact3 {
-  position: absolute;
   font-size: 5px;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-style: italic;
-  font-weight: bold;
-  color: #ccc;
-  line-height: 1;
-  width: 200px;
-  margin: 10px, auto;
 }
 
 .footer {
