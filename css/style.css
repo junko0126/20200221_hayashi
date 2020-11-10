@@ -319,18 +319,18 @@ header {
   justify-content: space-between;
 }
 
-.company {
-  background: url(../img/company.jpeg) no-repeat;
+.common {
   width: 600px;
   height: 300px;
   text-align: center;
 }
 
+.company {
+  background: url(../img/company.jpeg) no-repeat; 
+}
+
 .recruit {
   background: url(../img/recruit.jpg) no-repeat;
-  width: 600px;
-  height: 300px;
-  text-align: center;
 }
 
 .common p {
