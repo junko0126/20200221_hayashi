@@ -180,7 +180,7 @@ header {
   position: absolute;
   bottom: 0;
   right: 0;
-  width: 850px;
+  /* width: 850px; */
   height: 50px;
   display: flex;
 }
@@ -240,6 +240,19 @@ header {
   right: 100px;
 }
 
+.link {
+  padding: 5px 20px; /* 上下に5px、左右に20px */
+  font-size: 14px;
+  color: black;
+  text-decoration: none; /* テキストのスタイルを消す */
+  border: 1px white solid; /* 境界線を引く */
+  border-radius: 3px; /* 要素の角を丸くする */
+  background-color: white;
+  position: absolute;
+  margin-top: 150px;
+  margin-left: 200px;
+}
+
 /* service */
 #about {
   height: 1500px;
@@ -277,7 +290,7 @@ header {
 
 .button {
   margin-top: 20px;
-  margin-left: 400px;
+  /* margin-left: 400px; */
   z-index: 3;
 }
 
@@ -309,7 +322,7 @@ header {
 
 .button2 {
   margin-top: 20px;
-  margin-left: 400px;
+  /* margin-left: 400px; */
   z-index: 3;
 }
 
@@ -330,6 +343,7 @@ header {
 
 .recruit {
   background: url(../img/recruit.jpg) no-repeat;
+  background-size: cover;
 }
 
 .common p {
@@ -414,7 +428,7 @@ header {
 
 .contact_button button {
   display: block;
-  margin-left: 520px;
+  /* margin-left: 520px; */
   color: #ccc;
   border: solid #ccc 1px;
   padding: 5px;
@@ -468,4 +482,16 @@ header {
   .header-nav {
     display: none; /* デスクトップのナビを消す */
   }
+
+  .wrap {
+    flex-wrap: wrap;
+  }
+
+  .about-right2
+  .faq_black
+  .black_zone p {
+    width: 80%;
+    margin:0 auto ;
+  }
 }
+
