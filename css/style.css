@@ -393,6 +393,7 @@ header {
 }
 
 .contact {
+  /* position: relative; */
   line-height: 300px;
   background: url(../img/contact-bg.jpg) no-repeat;
   background-size: cover;
@@ -426,9 +427,14 @@ header {
   font-size: 5px;
 }
 
+.contact_button {
+  text-align: center;
+  position: absolute;
+  margin-left: 37%;
+}
+
 .contact_button button {
   display: block;
-  /* margin-left: 520px; */
   color: #ccc;
   border: solid #ccc 1px;
   padding: 5px;
