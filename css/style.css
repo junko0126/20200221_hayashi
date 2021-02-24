@@ -277,7 +277,7 @@ header {
   margin-bottom: 15px;
   color: black;
   margin-top: 100px;
-  margin-left: 400px;
+  margin-left: 20%;
   background-color: #f2f2f2;
   width: 550px;
   height: 250px;
@@ -306,7 +306,7 @@ header {
 .left_text2 {
   position: relative;
   margin-top: 500px;
-  margin-left: 400px;
+  margin-left: 40%;
   margin-bottom: 15px;
   color: black;
   background-color: #f2f2f2;
@@ -404,7 +404,6 @@ header {
 
 .contact p{
   margin-bottom: 40px;
-  font-style: italic;
   font-weight: bold;
   color: #ccc;
   line-height: 1;
